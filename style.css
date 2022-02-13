@@ -2,27 +2,35 @@
     margin: 0;
 }
 body {
-    background-color: rgb(255, 230, 213);
+    background-color: rgb(202, 202, 202);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
-    background-image: linear-gradient(to bottom, rgb(255, 134, 53), rgb(255, 230, 213));
+    background-image: linear-gradient(to bottom, black, rgb(202, 202, 202));
     
 }
 h2 {
     padding: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
 }
 h1 {
     text-align: center;
+    font-size: 40px;
     padding: 20px;
+    color: white;
 }
 main {
     background-color: white;
     margin: 10px 60px;
     padding: 40px;
     min-height: 800px;
+    font-size: 18px;
+}
+h3 {
+    font-size: 22px;
 }
 footer {
     text-align: center;
@@ -34,5 +42,5 @@ footer > p > a {
     text-decoration: none;
 }
 footer > p > a:hover {
-    color: rgb(255, 134, 53);
+    color: white;
 }
