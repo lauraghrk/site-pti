@@ -31,16 +31,45 @@ main {
 }
 h3 {
     font-size: 22px;
+    margin: 15px 0px;
 }
-footer {
-    text-align: center;
-    padding: 10px;
+h4 {
+    margin: 10px 0px 0px 0px;
 }
-footer > p > a {
+#foto {
+    position: relative;
+    float: left;
+    margin: 20px;
+}
+img {
+    height: 220px;
+}
+#dados {
+    height: 230px;
+    margin: 20px;
+}
+#infos {
+    margin: 20px;
+}
+p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+li {
+    margin: 5px 0px;
+}
+a {
     color: black;
     font-weight: bold;
     text-decoration: none;
 }
-footer > p > a:hover {
-    color: white;
+a:hover {
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+}
+footer {
+    padding: 5px;
+}
+footer > p {
+    text-align: center;
 }
